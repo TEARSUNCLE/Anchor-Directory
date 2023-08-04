@@ -49,8 +49,9 @@
 }
 
 .contents {
-  max-width: 52%;
+  max-width: 50%;
   margin-left: 5%;
+  margin-right: 5%;
   margin-top: 30px;
 }
 
@@ -62,14 +63,15 @@
 }
 
 .bookList {
-  position: absolute;
-  right: 30px;
-  top: 50px;
+  margin-top: 50px;
+  /* position: absolute; */
+  /* right: 30px; */
+  /* top: 50px; */
 }
 
 .bookList .bookName {
   font-weight: 400;
-  text-align: center;
+  /* text-align: center; */
   padding: 5px 0;
 }
 
