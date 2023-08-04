@@ -1,0 +1,78 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.box {
+  display: flex;
+}
+
+.module {
+  margin-top: 30px;
+  background-color: #f1f3f4;
+  border-radius: 5px;
+  width: 15%;
+}
+
+.module ul li {
+  text-align: center;
+  padding: 5px 0;
+}
+
+.commonHover:hover {
+  color: #0909f6;
+}
+
+.module ul li a {
+  font-size: 16px;
+  padding: 3px 0;
+}
+
+.module .bookType {
+  font-weight: 400;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.block {
+  display: block;
+}
+
+.titleActive1 {
+  color: #0909f6;
+}
+
+.titleActive2 {
+  color: #0909f6;
+}
+
+.contents {
+  max-width: 52%;
+  margin-left: 5%;
+  margin-top: 30px;
+}
+
+.contents .content {
+  margin-top: 10px;
+  background-color: #f1f3f4;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.bookList {
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+
+.bookList .bookName {
+  font-weight: 400;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.bookList ul li a {
+  padding: 2px 0;
+}
